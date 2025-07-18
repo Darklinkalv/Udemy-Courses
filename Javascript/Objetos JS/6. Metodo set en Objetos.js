@@ -3,7 +3,7 @@ let persona = {
     apellido: "Pérez",
     email: "alalalal",
     edad: 30,
-    idioma: "ES_MX",
+    idioma: "es_mx",
     get lang()
     {
         return this.idioma.toUpperCase();
@@ -18,6 +18,8 @@ let persona = {
 };
 
 console.log(persona.lang);
+console.log(persona.idioma);
 
-persona.lang = "EN_US";
+persona.lang = "en_us";
 console.log(persona.lang);
+console.log(persona.idioma);
