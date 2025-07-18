@@ -28,3 +28,6 @@ for(nombrePropiedad in persona)
 
 let personaArray = Object.values(persona);
 console.log(personaArray); //Imprime un array con los valores del objeto
+
+let personaString = JSON.stringify(persona);
+console.log(personaString); //Convierte el objeto a una cadena JSON
