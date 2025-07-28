@@ -23,6 +23,7 @@ console.log("Nombre: " + persona.nombre + ", Apellido: " + persona.apellido +
 //for in
 for(nombrePropiedad in persona)
 {
+    console.log(nombrePropiedad);
     console.log(persona[nombrePropiedad]);
 }
 
